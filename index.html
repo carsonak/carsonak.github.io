@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Personal portfolio of Carsonak, a software developer building practical and thoughtful software."
+  />
+
+  <title>Carsonak | Software Developer</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="nav">
+    <a href="#" class="logo">carsonak<span>.</span></a>
+
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SOFTWARE DEVELOPER</p>
+
+        <h1>
+          Hi, I'm <span>Carson.</span>
+          <br />
+          I build software.
+        </h1>
+
+        <p class="hero-description">
+          I'm a software developer interested in building useful,
+          reliable and thoughtfully designed digital products.
+        </p>
+
+        <div class="hero-actions">
+          <a
+            class="button primary"
+            href="https://github.com/carsonak"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View GitHub
+          </a>
+
+          <a
+            class="button secondary"
+            href="#projects"
+          >
+            See my work
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a
+            href="https://github.com/carsonak"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub ↗
+          </a>
+
+          <a
+            href="https://linkedin.com/in/carsonak"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn ↗
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="image-accent"></div>
+
+        <img
+          src="assets/profile.jpg"
+          alt="Portrait of Carson"
+          class="hero-image"
+        />
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="section-number">01</p>
+
+      <div class="section-content">
+        <p class="eyebrow">ABOUT ME</p>
+
+        <h2>Building things for the web and beyond.</h2>
+
+        <p>
+          I'm a software developer who enjoys turning ideas into working
+          products. I care about clean implementations, good user experiences
+          and continually improving how I approach engineering problems.
+        </p>
+
+        <p>
+          This portfolio is still growing. I'll be using it to document the
+          projects I'm building, technologies I'm exploring and lessons I've
+          learned along the way.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>Projects</h2>
+        </div>
+
+        <a
+          href="https://github.com/carsonak"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          All repositories ↗
+        </a>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-number">01</div>
+
+          <div>
+            <h3>Something new is brewing.</h3>
+
+            <p>
+              I'm preparing projects to showcase here. In the meantime, you
+              can explore my public work and experiments on GitHub.
+            </p>
+          </div>
+
+          <a
+            href="https://github.com/carsonak"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visit Carson's GitHub profile"
+          >
+            Explore GitHub ↗
+          </a>
+        </article>
+
+        <article class="project-card muted">
+          <div class="project-number">02</div>
+
+          <div>
+            <h3>Your next project.</h3>
+
+            <p>
+              Add a title, short description, tech stack, screenshot and links
+              to your repository or live application here.
+            </p>
+          </div>
+
+          <span>Coming soon</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <p class="eyebrow">GET IN TOUCH</p>
+
+      <h2>Let's connect.</h2>
+
+      <p>
+        Interested in my work or want to talk about software, projects or
+        opportunities? Find me on LinkedIn or GitHub.
+      </p>
+
+      <div class="contact-actions">
+        <a
+          class="button primary"
+          href="https://linkedin.com/in/carsonak"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+
+        <a
+          class="button secondary light"
+          href="https://github.com/carsonak"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Carsonak</p>
+
+    <p>Designed & built for the web.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent =
+      new Date().getFullYear();
+  </script>
+</body>
+</html>
+
